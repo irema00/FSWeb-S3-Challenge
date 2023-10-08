@@ -156,28 +156,34 @@ header a h1 {
 /* gallery section */
 .gallery {
     width: 100%;
-    height: 100vh;
+    height: auto;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    display:flex;
     flex-wrap: wrap;
-   
-   }
+    justify-content: center;
+
+}
    
 
 .foodpics-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
+    gap: 3rem;
+  
+    
+ }
+
+ .yemekbaslik {
+    display: flex;
  }
 
 .gallery img {
     border-radius: 2rem;
     box-shadow: 1rem;
-    width: 30%;
-    margin: 1%;
+    
+   
    
 }
 /* about us section */
@@ -369,6 +375,7 @@ footer
     /* gallery section */
     .gallery {
         height: auto;
+        display:flex;
          
     }
 
@@ -433,14 +440,12 @@ footer
         color: white;
         display: flex;
         flex-direction: column;
-        /* align-items: center;  */
         padding: 2rem 5%; 
 
     }
     .box2 {
-    display:flex;
+         display:flex;
     
-
     }
     .footnav {
         display: flex;
